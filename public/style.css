@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Montserrat:ital,wght@1,300&family=Public+Sans:ital@1&family=Rye&family=Special+Elite&display=swap');
+/* body {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 18px;
+    font-family: inherit;
+    border-radius: 5px;
+    border: 1px solid gray; 
+  }
+  
+  #plus {
+    font-size: 28px;
+    font-family: 'Rye';
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 18px;
+    background: aqua;
+    color: blue;  
+    border: 1px solid gray; 
+    border-radius: 5px;
+    font-family: inherit;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+  } */
+
+  body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #eaece5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    background-color: #b2c2bf;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.4, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+/* .container {
+  background-color: #eaece5;
+} */
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 12px;
+    background-color:#3b3a30;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0.2, 0.5);
+    font-family: 'public sans', sans-serif;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b2c2bf;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
