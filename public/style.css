@@ -1,48 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Montserrat:ital,wght@1,300&family=Public+Sans:ital@1&family=Rye&family=Special+Elite&display=swap');
-/* body {
-    font-family: 'Kanit', sans-serif;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .container {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  input {
-    padding: 5px;
-    font-size: 18px;
-    font-family: inherit;
-    border-radius: 5px;
-    border: 1px solid gray; 
-  }
-  
-  #plus {
-    font-size: 28px;
-    font-family: 'Rye';
-  }
-  
-  button {
-    padding: 5px 10px;
-    font-size: 18px;
-    background: aqua;
-    color: blue;  
-    border: 1px solid gray; 
-    border-radius: 5px;
-    font-family: inherit;
-  }
-  
-  #result {
-    margin-top: 20px;
-    font-size: 24px;
-  } */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kanit:ital,wght@1,300&family=Montserrat:ital,wght@1,300&family=Pacifico&family=Playpen+Sans:wght@300&family=Public+Sans:ital@1&family=Rye&family=Special+Elite&display=swap');
 
+/*Apply font styles and body styling */
   body {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Playpen Sans', sans-serif;
     background-color: #eaece5;
     margin: 0;
     padding: 0;
@@ -52,6 +12,7 @@
     height: 100vh;
 }
 
+/* Style the main container */
 .main-container {
     background-color: #b2c2bf;
     border-radius: 8px;
@@ -59,10 +20,8 @@
     padding: 20px;
     text-align: center;
 }
-/* .container {
-  background-color: #eaece5;
-} */
 
+/* Style headings */
 h1 {
     color: #333;
 }
@@ -71,11 +30,21 @@ h2 {
     color: #555;
 }
 
+/* Style input elements */
 input {
     padding: 8px;
     margin: 5px;
+    font-family: 'Playpen Sans', sans-serif;
+    font-weight: 400;
 }
 
+/* Style the "+" element */
+#plus {
+  font-size: 46px;
+ 
+}
+
+/* Style the calculate button */
 button {
     padding: 12px;
     background-color:#3b3a30;
@@ -91,7 +60,33 @@ button:hover {
     background-color: #b2c2bf;
 }
 
-#result {
-    margin-top: 10px;
-    font-weight: bold;
+/* Define a keyframe animation for moving emoji */
+@keyframes moveEmoji {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
+
+/* Style the result  */
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Define styles for the emoji after a result is added */
+.show-emoji::after {
+  content: ' 💯';
+  margin-left: 10px;
+  font-size: 24px;
+  display: inline-block;
+  animation: moveEmoji 2s ease infinite;
+
+}
+
