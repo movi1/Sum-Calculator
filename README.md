@@ -25,9 +25,12 @@ Welcome to the Math Wonderland Sum Calculator! This application allows users to 
 - Animated emoji when a result is displayed.
 
 
-## Demo
+## Video Demo
 
-[Link to Demo Video](./public/images/calculator-screen-rec%20(1).mp4)
+[![Watch the video]](https://youtu.be/B4mp6W_JHbM)
+
+Click the image above to watch a video demonstration of the Sum Calculator website.
+
 
 ## Part 1: Website Setup
 
