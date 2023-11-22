@@ -27,15 +27,12 @@ Welcome to the Math Wonderland Sum Calculator! This application allows users to 
 
 ## Demo
 
-[Link to Demo Video](video/demo.mp4)
+[Link to Demo Video](./public/images/calculator-screen-rec.mp4)
 
 ## Setup
 
 1. Clone the repository.
 2. Open `index.html` in your browser.
 
-## Additional Notes
-
-- Document any additional information, challenges faced, or decisions made during development.
 
 
