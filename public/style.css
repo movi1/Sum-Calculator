@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
 }
 
@@ -19,6 +20,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0.4, 0.5);
     padding: 20px;
     text-align: center;
+}
+
+#title {
+  color: #634254; 
+  font-size: 36px; /* Adjust the font size as needed */
+  margin-bottom: 20px; 
 }
 
 /* Style headings */

@@ -20,7 +20,7 @@ calculateBtn.addEventListener('click', () => {
     const sum = num1 + num2;
 
      // Display only the sum in the resultDiv
-     resultDiv.innerHTML = `tot = ${sum}`;
+     resultDiv.innerHTML = sum;
 
     // Add a class to the result element
     resultDiv.classList.add('show-emoji');
