@@ -1,4 +1,4 @@
-# Sum-Calculator-CFG
+# Sum-Calculator
 # Math Wonderland Sum Calculator
 
 ## Overview
